@@ -1,2 +1,3 @@
 # Mokti-Ice-Cream-Order-System
-dsadas
+The language that I'm using for this project is HTML and Php
+The database that I'm using for this project is OracleDB
