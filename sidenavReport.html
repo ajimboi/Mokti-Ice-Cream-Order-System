@@ -1,0 +1,100 @@
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+    <body>
+        <div class="sidenav">
+            <img class="logo" src="../moktis/images/logo2.svg">
+            <ul>
+              <li >
+                <a type="button" href="dailysales.php" target=content class="button">Daily&nbsp;Sales</a>
+                </li >
+            <li>
+            <a type="button" href="monthlysales.php"  target=content class="button">Monthly&nbsp;Sales</a>
+            </li >
+             <li >
+            <a type="button" href="productsales.php" target=content class="button">Product&nbsp;Sales</a>
+            </li >
+            <li >
+              <a type="button" href="sidenav.html"  target=sidenav class="button">Back</a>
+              </li >
+            </ul>
+    </body>
+</html>
+<style>
+img.logo {
+	color: #cf2e2e;
+	font-weight: bold;
+	text-align: undefined;
+	width: 70%;
+  display: inline;
+	float: left;
+	margin-top:0.5px;
+	margin-left: 16.5px;
+	margin-bottom: 20px;
+	letter-spacing: 4px;
+	position:relative;
+  filter:drop-shadow(2px 2px 2px gray);
+  }
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#cf2e2e;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+  }
+  
+  .sidenav a {
+    padding: 6px 100px 10px 20px;
+    font-size: 15px;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    color: black;
+    font-size: 15px;
+    width: 20%;
+    background-color: white;   
+  }
+  
+  .main {
+    margin-left: 20px; /* Same as the width of the sidenav */
+  }
+
+  li {
+    align-content: center;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+a {
+    font-family: 'Fredoka', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    display: flow-root;
+    float:left;
+    text-decoration:none;
+}
+</style>
